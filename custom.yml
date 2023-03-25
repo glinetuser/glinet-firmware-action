@@ -6,9 +6,10 @@ feeds:
     branch: master
 packages:
   - luci-app-mwan3
-
-
-
+  - luci-app-passwall
+  - luci-i18n-passwall-zh-cn
+  - luci-compat
+  - luci-lib-ipkg
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
   CONFIG_PACKAGE_wpad=n
